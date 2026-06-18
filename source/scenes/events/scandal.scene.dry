@@ -1,5 +1,4 @@
 title: A scandal!!!
-view-if: year = 1928 and month = 1
 max-visits: 1
 new-page: true
 tags: event
@@ -19,5 +18,5 @@ My pacifist rhetoric against rearmament of our school militia  has improved my r
 - @next: Continue...
 
 @next
-go-to: event/dialouge_test_event.scene.dry
+go-to: dialouge_test
 

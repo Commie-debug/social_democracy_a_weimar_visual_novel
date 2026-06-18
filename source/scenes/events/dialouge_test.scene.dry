@@ -1,5 +1,4 @@
 title: Dialouge Test
-view-if: year = 1928 and month = 1
 max-visits: 1
 new-page: true
 tags: event
@@ -61,4 +60,7 @@ Zentrum-chan looks down for a moment as she hears this, and gives me a sad smile
 
 Z: "That's too bad. I get that she hates people staring, but I don't think this kind of attention is a bad thing. It's a shame she can't enjoy it."
 
+- @d7: Continue..
 
+@d7
+go-to: death_of_stresemann
