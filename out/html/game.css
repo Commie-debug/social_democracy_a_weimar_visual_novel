@@ -57,8 +57,7 @@ header, #content, footer {
   background-color: var(--content-bg-color);
   font-size: 1.1em;
   padding: 1em 1.5em 1.5em 1.5em;
-  min-height: 20vh;
-  height: 70;
+  height: 70vh;
   overflow-y: auto;
   box-shadow: none;
 }
