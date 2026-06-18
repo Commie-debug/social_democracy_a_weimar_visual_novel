@@ -226,6 +226,8 @@ img.inline-img.icon {
 #mid_panel {
   margin-left: 600px;
   max-width: 900px;
+  min-height: 200px;
+  margin-top: 60px;
 }
 
 #page {
