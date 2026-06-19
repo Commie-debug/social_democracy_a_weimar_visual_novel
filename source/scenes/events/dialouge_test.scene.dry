@@ -2,8 +2,9 @@ title: Dialouge Test
 max-visits: 1
 new-page: true
 tags: event
-on-display: {! window.setEventPortrait('img/portraits/Z_Full.png'); !}
 
+
+{!<div class="event-layout"><div class="event-portrait-col">Zentrum-chan<img class="event-portrait-img" src="img/portrait_someone.jpg"></div><div class="event-dialogue-col">!}
 
 Zentrum-chan politely waited for me after the end of class , and she doesn't waste any time bringing up the hottest subject to talk about.
 
@@ -62,4 +63,4 @@ Zentrum-chan looks down for a moment as she hears this, and gives me a sad smile
 Z: "That's too bad. I get that she hates people staring, but I don't think this kind of attention is a bad thing. It's a shame she can't enjoy it."
 
 
-{!</div></div>!}
+
