@@ -225,7 +225,7 @@ img.inline-img.icon {
 /* This is mostly copied from undum. */
 #mid_panel {
   margin-left: 600px;
-  max-width: 900px;
+  max-width: 1000px;
   min-height: 200px;
   margin-top: 60px;
 }
@@ -245,7 +245,7 @@ img.inline-img.icon {
   margin: 0 auto;
 }
 .tools {
-  width: 30rem;
+  width: 25rem;
   color: var(--text-color);
   background-color: var(--content-bg-color);
   display: flex;
