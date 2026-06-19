@@ -112,7 +112,7 @@ const tooltipList = [
     },
     {
     searchString: "Bing chi ling",
-    explanationText: "<img src=img/john_cena.webp> "
+    explanationText: "<img src=img/John_cena.webp> "
     },
     {
     searchString: "NSDAP",
