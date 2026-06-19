@@ -648,6 +648,8 @@ img.inline-img.icon {
     opacity: 0.3;
 }
 
+
+/*large group or bigger background*/
 .main-portrait-box {
     width: 100%;
     text-align: center;
@@ -664,6 +666,33 @@ img.inline-img.icon {
     border: 2px solid var(--border-color);
     border-radius: 4px;
     display: block;
+}
+
+/*single character*/
+.event-layout {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.event-portrait-col {
+    flex-shrink: 0;
+    width: 35%;
+}
+
+.event-portrait-img {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    display: block;
+}
+
+.event-dialogue-col {
+    flex: 1;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 0.5em;
 }
 
 .route-characters {
