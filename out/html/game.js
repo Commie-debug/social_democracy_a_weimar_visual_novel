@@ -516,6 +516,20 @@
     }
   };
 
+  //singular portrait shit
+  window.setEventPortrait = function(src) {
+    var existing = document.querySelector('#content .event-portrait-img');
+    if (existing) {
+        existing.src = src;
+    } else {
+        var img = document.createElement('img');
+        img.className = 'event-portrait-img';
+        img.src = src;
+        var contentDiv = document.getElementById('content');
+        contentDiv.insertBefore(img, contentDiv.firstChild);
+    }
+};
+
   // POLL DISPLAY GRACIOUSLY PROVIDED BY FRANCOGAMER ON DISCORD and later modified by PUDDLE on discord
   scrollhor = function(tableid) {
         var el = document.getElementById(tableid);
