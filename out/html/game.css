@@ -245,7 +245,7 @@ img.inline-img.icon {
   margin: 0 auto;
 }
 .tools {
-  width: 2rem;
+  width: 25rem;
   color: var(--text-color);
   background-color: var(--content-bg-color);
   display: flex;
