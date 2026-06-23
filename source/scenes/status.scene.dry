@@ -31,7 +31,7 @@ SPD: [+ spd_r +]%
 [? if sapd_formed = 1 : SAPD: [+ sapd_r +]% ?]
 Z + BVP: [+ z_r +]%
 KPD: [+ kpd_r +]%
-[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_r +]%
+[? if not ddp_name: DDP [? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_r +]% ?]
 DVP: [+ dvp_r +]%
 DNVP: [+ dnvp_r +]%
 NSDAP: [+ nsdap_r +]%
